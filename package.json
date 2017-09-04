@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.15.4",
+    "mocha": "^3.5.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
@@ -13,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "node server/src/server.js",
+    "server-test": "mocha server/test"
   }
 }
