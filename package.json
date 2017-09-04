@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "mocha test/.setup.js test/**/*.test.js",
     "eject": "react-scripts eject",
-    "server": "node server/src/server.js",
-    "server-test": "mocha server/test"
+    "server": "node src/server/server.js",
+    "server-test": "mocha test/server"
   }
 }

@@ -1,4 +1,4 @@
-const add = require('../src/add');
+const add = require('../../src/server/add');
 const expect = require('chai').expect;
 
 describe('add test', function () {
